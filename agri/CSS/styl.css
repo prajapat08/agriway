@@ -1,1 +1,483 @@
+body{
+	font:15px/1.5 Arial, Helvetice, sans-serif;
+	 padding: 0;
+	 margin: 0;
+	 background-color: #f4f4f4;
 
+}
+    .container{ 
+       width: 80%;
+        margin: auto;
+         overflow: hidden;
+    }
+
+ 
+.h{
+  border-color: #000;
+  background-color: #000;
+  color: #000; 
+  height:1px;
+}
+.aa{
+	width: 300px;
+	height: 260px;
+	background-color:    red;
+	margin-left: 850px;
+	margin-right: 25px;
+	margin-top: 30px
+	padding-top: 10px;
+	padding-left: 50px;
+	border-radius: 15px;
+	-webkit-border-radius:15px;
+	color: white;
+	font-weight: bolder;
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5) ;
+	font-size: 18px;
+	
+}
+.aa input [type="text"]
+{ width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	padding-left: 5px;
+	
+
+
+}
+.aa input [type="password"]
+{ width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+
+
+
+}
+.aa input [type="submit"]
+{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: skyblue;
+	font-weight: bolder;
+
+
+}
+          ul{
+     	 padding: 0;
+	     margin: 0;   
+     }
+
+           .button_1{
+           	height: 38px;
+           	background: #e8491d ;
+           	border: 0;
+           	padding-left: 20px;
+           	padding-right: 20px;
+           	color: #ffffff;
+           }
+
+          .dark{
+          	padding: 15px;
+          	background: #FFDAB9;
+
+          	color:#ffffff;
+          	margin-top: 10px;
+          	 margin-bottom: 10px;
+          }
+         
+.do{
+	margin-bottom: 30px;
+}
+
+header nav input[type=text] {
+    width: 280px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+    header{
+    	
+    	color: #000;
+    	padding-top: 10px;
+    	min-height: 70px;
+    	 
+    }
+    header a{
+    	color: #000;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	font-size: 20px;
+    }
+     
+     header li{
+     	float:left;
+     	display: inline;
+     	padding: 0 20px 0 20px;
+     }
+     header #branding{
+     	float: left;
+      font-size: 30px;
+     }
+     header #branding h1{
+
+	 margin: 0;
+     }
+     header nav{
+     	float: right;
+      background:#fff;
+     	margin-top: 1px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+      header .highlight, header .current a{
+      	color:   #00FF7F;
+      	font-weight:bold;
+      }
+     .page-title{
+      margin-left: 250px;
+     }
+     .page-title1{
+      margin-left: 250px;
+     }
+        .table2{
+          margin-left: 230px;
+           
+              
+             text-align: left;
+              
+
+        }
+       commodity-table-wrapper{
+          background-color: #90EE90;
+          
+         }
+         .corntable{
+          font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+         }
+           .corntable th,td {
+           border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; 
+            }
+            .comcorntable{
+               
+              background-color:  #90EE90
+            }
+
+        #showcase{
+        	min-height: 400px;
+         
+            text-align: center;
+            color: #000000 ;
+
+        }
+        #showcase h1{
+        	margin-top: 100px;
+        	font-size: 55px;
+        	margin-bottom: 10px;
+
+        }
+        #showcase p{
+        	font-size: 20px;
+        }
+        #newsletter{
+        	padding: 15px;
+        	color: #ffffff;
+        	background-color: #35424a;
+        }
+        #newsletter h1{
+        	float: left;
+
+        }
+        #newsletter form{
+        	  float: right;
+        	  margin-top: 15px;
+        }
+        #newsletter input[type="email"]{
+        	padding: 4px;
+        	height:  25px;
+        	width: 250px;
+        }
+         #boxes{ 
+         	margin-top: 20px;
+
+         }
+         #boxes .box{
+         	float: left;
+         	text-align: center; 
+         	width: 30px;
+         	padding: 10px
+         	
+         }
+         #boxes .box ing{
+         	width: 90px;
+         }
+            aside#sidebar{
+            	 float: right;
+            	 width: 30%;
+            	 margin-top: 10px;
+            }
+                 aside#sidebar .quote input, aside#sidebar .quote textarea{
+                 	width: 90px;
+                 	padding: 5px;
+                 }
+
+             article#main-col{
+             	float: left;
+             	width: 65%;
+             }
+              article#main-col1{
+              float: left;
+              width: 65%;
+             }
+              
+              ul#services li{
+              	list-style: none;
+              	padding: 20px;
+              	border: #cccccc solid 1px;
+              	margin-bottom: 5px;
+              	background: 	#ffe6e6;
+
+              }
+               ul#services1 li{
+                list-style: none;
+                padding: 20px;
+                border: #90EE90 solid 1px;
+                margin-bottom: 5px;
+                background:   #ffe6e6;
+
+              }
+
+          footer{
+          	  padding: 10px;
+          	  margin-top: 520px;
+          	  color: #ffffff;
+          	  background-color:    #000000;
+          	  text-align: : center; 
+          }
+          @media(max-width: 768px){
+          	header #branding,
+          	header nav,
+          	header nav li,
+          	#newsletter h1,
+          	#newsletter form,
+          	#boxes .box,
+          	 
+          	aside#sidebar
+          	{
+
+          		float: none;
+          		text-align: center;
+          		width: 100%
+          	}
+          	header {
+          		padding-bottom: 20px;
+          	}
+           #showcase h1{
+           	margin-top: 40px;
+           }
+           #newsletter button .quote button{
+           	display: block;
+           	width: 100%;
+
+           }
+           #newsletter form input[type="email"], .quote input, .quote textarea{
+           	width: 100%;
+           	margin-bottom: 5px;
+           }
+          } 
+
+
+
+          input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+      .newstable{
+        color: black;
+        font-stretch: bold;
+
+      }
+    
+        
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  float:left;
+  width:50%;
+    padding: 14px 20px;
+    background-color: #7FFFD4;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {float:left;
+  width:50%;
+  background-color: #FF1493;
+}
+
+/* Add padding to container elements */
+.container1 {
+    padding: 16px;
+    background-color: #B0C4DE;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #F5F5F5;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 15px;
+}
+
+.tabl{
+  background-color: #E6E6FA;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+    li  .ddn {
+    display: inline-block;
+}
+
+ .ddn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ddn-content a {
+    color:  #1E90FF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+ 
+
+.ddn:hover .ddn-content {
+    display: block;
+}
+ 
+
+  .d ul{list-style-type: none;}
+    
+  .d ul li{
+        float:left;
+        padding:2px 2px;
+    }    
+    
+#card {
+  height:400px;
+  width: 300px;
+  border:1px solid black;
+  padding: 0px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.d{
+  margin-left: 60px;
+}
+  .card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+  #card a {
+  margin-left: 65px;
+  font-size: 22px;
+  color: black;
+}
+
+
+
+  .card button:hover, a:hover {
+  opacity: 0.7;
+}
